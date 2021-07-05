@@ -24,6 +24,11 @@ h1 {
   color: white;
 }
 
+h2 {
+  color: orange;
+  text-align: center;
+}
+
 .super-power {
   letter-spacing: 2px;
   color: yellow;
@@ -40,6 +45,10 @@ p {
   font-size: 20px;
 }
 
+p {
+  text-align: justify;
+}
+
 .link-button {
   color: white;
   text-decoration: none;
@@ -48,4 +57,22 @@ p {
   font-weight: 700;
   margin-top: 60px;
   border-radius: 10px;
+}
+
+a {
+  margin-bottom: 30px;
+}
+
+.superitem-area {
+  padding-left: 15%;
+  margin-top: 100px;
+}
+
+.superitem {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  box-shadow: 10px 10px 30px cyan;
+  border-radius: 15px;
 }

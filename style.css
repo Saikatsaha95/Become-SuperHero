@@ -102,3 +102,14 @@ a {
   border-image: linear-gradient(#f5af19, #f12711);
   border-image-slice: 1;
 }
+
+.baby-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+}

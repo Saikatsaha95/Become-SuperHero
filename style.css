@@ -6,7 +6,10 @@ body {
 
 .flexible-container {
   display: flex;
-  margin-bottom: 150px;
+}
+
+.section-margin {
+  margin-bottom: 200px;
 }
 
 .half-width {
@@ -16,7 +19,10 @@ body {
 
 .half-width img {
   width: 80%;
-  margin-right: 3%;
+}
+
+#big-img {
+  width: 90%;
 }
 
 h1 {
@@ -43,10 +49,11 @@ h3 {
 p {
   margin-bottom: 40px;
   font-size: 20px;
+  text-align: justify;
 }
 
-p {
-  text-align: justify;
+.super-para {
+  padding-right: 40px;
 }
 
 .link-button {

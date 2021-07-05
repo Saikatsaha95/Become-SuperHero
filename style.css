@@ -30,9 +30,13 @@ h1 {
   color: white;
 }
 
-h2 {
+.super-header {
   color: orange;
   text-align: center;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .super-power {
@@ -82,4 +86,19 @@ a {
   padding: 10px;
   box-shadow: 10px 10px 30px cyan;
   border-radius: 15px;
+}
+
+.feedback-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  box-shadow: 10px 10px 30px cyan;
+  border-radius: 15px;
+}
+
+.pro-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(#f5af19, #f12711);
+  border-image-slice: 1;
 }
